@@ -5,8 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .button {
+      border: none;
+      background-color: gray;
+      padding: 15px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .button {
+      float: left;
+      border: 1px solid black;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <!--10 webpages-->
+      <ul>
+      <button><li><a href="index.html">Home</a></li></button>
+      <button><li><a href="about us.html">About Us</a></li></button>
+      <button><li><a href="fish.html">Fish</a></li></button>
+      <button><li><a href="books.html">Books</a></li></button>
+      <button><li><a href="cards.html">Cards</a></li></button>
+      <button><li><a href="portals.html">Portals</a></li></button>
+      <button><li><a href="magic.html">Magic</a></li></button>
+      <button><li><a href="Dogs.html">Dogs</a></li></button>
+      <button><li><a href="trash cans.html">Trash Cans</a></li></button>
+      <button><li><a href="crochet.html">Crochet</a></li></button>
+      <button><li><a href="contact us.html">Contact Us</a></li></button>
+    </ul>
+    </nav>
+  </header>
   <form>
     <label for ="firstname">First Name:</label><br>
     <input type="text" name="firstname"><br>
@@ -16,6 +51,20 @@
     <br>
     <label for ="email">Email:</label><br>
     <input type="text" name="email"><br>
+    <br>
+    <label for="comments">Comments:</label><br>
+    <textarea name="comments" rows="4" cols="50"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    <br>
+    <label for="rating">Rate Us:</label><br>
+    <input type="radio" name="1_star" value="1_star"> 1 
+    <input type="radio" name="2_star" value="2_star"> 2
+    <input type="radio" name="3_star" value="3_star"> 3
+    <input type="radio" name="4_star" value="4_star"> 4
+    <input type="radio" name="5_star" value="5_star"> 5
   </form>
   <br>
   <footer> &copy; Kam's Store 2025</footer>
