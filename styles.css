@@ -20,8 +20,11 @@ figcaption {
 }
 
 /* un clicked link color */
-a:link {
+a:link, a:active {
   color: blue;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
 }
 
 /* clicked link color */
